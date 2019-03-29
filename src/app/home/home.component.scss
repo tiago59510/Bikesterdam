@@ -1,0 +1,46 @@
+a .story{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 4px #137381;
+}
+
+
+
+.limiter{
+    background: #E9F0F7;
+}
+
+.container-fluid{
+    overflow: hidden;
+    padding: 0;
+    }
+
+mdb-carousel img{
+    opacity: 0.9;
+    width: 100%;
+    height: 500px;
+}
+
+.jumbotron-fluid {
+    margin-top: 30px;
+}
+
+
+
+.jumbotron-2{
+    background-image: url("/assets/img/winter.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 3px 5px black;
+}
+
+.jumbotron-1{
+    background-image: url("/assets/img/news.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 3px 5px black;
+}
+
