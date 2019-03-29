@@ -8,6 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FooterComponent } from './footer/footer.component';
+import { WavesModule, ButtonsModule, IconsModule } from 'angular-bootstrap-md';
+import { VeloComponent } from './velo/velo.component';
 
 
 
@@ -19,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     FormComponent,
     NavComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    VeloComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,11 @@ import { FooterComponent } from './footer/footer.component';
         path: '',
         component: HomeComponent,
         data: {title: 'Bikesterdam'}
+      },
+      {
+        path: 'velos',
+        component: VeloComponent,
+        data: {title: 'Vélos'}
       }
     ]),
     MDBBootstrapModule.forRoot()
